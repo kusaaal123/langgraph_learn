@@ -15,11 +15,15 @@ def get_review_chain():
     """
 
     # 1. Use a supported model with low temperature for deterministic JSON output
-    model_id = "meta/llama-3.3-70b-instruct"
+
+    #model_id = "meta/llama-3.3-70b-instruct"
+    model_id = "minimaxai/minimax-m3"
 
     llm = ChatNVIDIA(
         model=model_id,
-        temperature=0.1
+        temperature=0.1,
+        timeout=200,
+        max_completion_tokens=16384
     )
 
     # 2. Use PydanticOutputParser for clean schema instruction injection
