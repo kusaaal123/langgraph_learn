@@ -7,7 +7,7 @@ Tracking progress for the **AI Code Review & Refactoring Agent** project roadmap
 ## 📌 Progress Overview
 
 - [x] Stage 0: Foundations (No graph yet)
-- [ ] Stage 1: Tool Calling
+- [x] Stage 1: Tool Calling
 - [ ] Stage 2: LangGraph Basics (State & Nodes)
 - [ ] Stage 3: Conditional Routing
 - [ ] Stage 4: RAG (Retrieval-Augmented Generation)
@@ -35,8 +35,8 @@ Tracking progress for the **AI Code Review & Refactoring Agent** project roadmap
 **Goal:** Let the LLM call functions instead of hardcoding inputs.
 
 - [x] **1.1 Tool Wrapper:** Created `@tool` function `read_git_diff()` that shells out to `git diff`.
-- [ ] **1.2 ReAct Loop:** Bound tool to model and implemented manual `while` loop to execute tool calls.
-- [ ] **1.3 Deliverable:** Agent fetches diff dynamically from repo path and produces findings.
+- [x] **1.2 ReAct Loop:** Bound tool to model and implemented manual `while` loop to execute tool calls.
+- [x] **1.3 Deliverable:** Agent fetches diff dynamically from repo path and produces findings.
 
 ---
 
