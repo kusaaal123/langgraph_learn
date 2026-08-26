@@ -1,0 +1,22 @@
+# Python / Environment
+.venv/
+venv/
+ENV/
+env/
+*.pyc
+__pycache__/
+
+# Secrets & Local Config
+.env
+*.local
+
+# Database & Checkpoints (LangGraph / Vector DBs)
+*.db
+*.sqlite
+.chroma/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
