@@ -34,7 +34,7 @@ Tracking progress for the **AI Code Review & Refactoring Agent** project roadmap
 ## 🔵 Stage 1 — Tool Calling
 **Goal:** Let the LLM call functions instead of hardcoding inputs.
 
-- [ ] **1.1 Tool Wrapper:** Created `@tool` function `read_git_diff()` that shells out to `git diff`.
+- [x] **1.1 Tool Wrapper:** Created `@tool` function `read_git_diff()` that shells out to `git diff`.
 - [ ] **1.2 ReAct Loop:** Bound tool to model and implemented manual `while` loop to execute tool calls.
 - [ ] **1.3 Deliverable:** Agent fetches diff dynamically from repo path and produces findings.
 
