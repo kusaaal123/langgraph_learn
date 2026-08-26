@@ -1,6 +1,6 @@
 """
 Initialization for the code review agent chains module.
 """
-from .review_chain import run_react_agent
+from .review_chain import get_review_chain, run_react_agent
 
-__all__ = ["run_react_agent"]
+__all__ = ["get_review_chain", "run_react_agent"]

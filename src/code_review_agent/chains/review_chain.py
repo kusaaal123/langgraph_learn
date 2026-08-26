@@ -80,12 +80,12 @@ def run_react_agent(user_query: str) -> ReviewReport:
             # Append ToolMessage with exact matching tool_call_id
             messages.append(ToolMessage(content=str(output), tool_call_id=tool_id))
 
-# def get_review_chain():
-#    """
-#    Build and return an LCEL chain for code review.
-#    
-#    Composition: prompt | llm | parser
-#    """
+def get_review_chain():
+    """
+    Build and return an LCEL chain for code review.
+    
+    Composition: prompt | llm | parser
+    """
 
     # 1. Use a supported model with low temperature for deterministic JSON output
 
