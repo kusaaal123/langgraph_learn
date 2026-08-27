@@ -8,7 +8,7 @@ Tracking progress for the **AI Code Review & Refactoring Agent** project roadmap
 
 - [x] Stage 0: Foundations (No graph yet)
 - [x] Stage 1: Tool Calling
-- [ ] Stage 2: LangGraph Basics (State & Nodes)
+- [x] Stage 2: LangGraph Basics (State & Nodes)
 - [ ] Stage 3: Conditional Routing
 - [ ] Stage 4: RAG (Retrieval-Augmented Generation)
 - [ ] Stage 5: Loops & Retries
@@ -40,12 +40,12 @@ Tracking progress for the **AI Code Review & Refactoring Agent** project roadmap
 
 ---
 
-## 🔵 Stage 2 — Introduce LangGraph: State and Nodes
+## � Stage 2 — Introduce LangGraph: State and Nodes
 **Goal:** Replace the implicit while-loop with an explicit state machine.
 
-- [ ] **2.1 State Definition:** Defined typed `State` schema (`TypedDict` or Pydantic).
-- [ ] **2.2 Graph Nodes:** Created `fetch_diff`, `generate_review`, and `format_output` node functions.
-- [ ] **2.3 StateGraph Construction:** Wired nodes with linear edges in `StateGraph` and compiled workflow.
+- [x] **2.1 State Definition:** Defined typed `State` schema (`TypedDict` or Pydantic).
+- [x] **2.2 Graph Nodes:** Created `fetch_diff`, `generate_review`, and `format_output` node functions.
+- [x] **2.3 StateGraph Construction:** Wired nodes with linear edges in `StateGraph` and compiled workflow.
 
 ---
 
