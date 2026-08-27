@@ -9,7 +9,7 @@ Tracking progress for the **AI Code Review & Refactoring Agent** project roadmap
 - [x] Stage 0: Foundations (No graph yet)
 - [x] Stage 1: Tool Calling
 - [x] Stage 2: LangGraph Basics (State & Nodes)
-- [ ] Stage 3: Conditional Routing
+- [x] Stage 3: Conditional Routing
 - [ ] Stage 4: RAG (Retrieval-Augmented Generation)
 - [ ] Stage 5: Loops & Retries
 - [ ] Stage 6: Human-in-the-Loop
@@ -40,7 +40,7 @@ Tracking progress for the **AI Code Review & Refactoring Agent** project roadmap
 
 ---
 
-## � Stage 2 — Introduce LangGraph: State and Nodes
+## 🟢 Stage 2 — Introduce LangGraph: State and Nodes
 **Goal:** Replace the implicit while-loop with an explicit state machine.
 
 - [x] **2.1 State Definition:** Defined typed `State` schema (`TypedDict` or Pydantic).
@@ -49,12 +49,12 @@ Tracking progress for the **AI Code Review & Refactoring Agent** project roadmap
 
 ---
 
-## 🔵 Stage 3 — Conditional Routing
+## 🟢 Stage 3 — Conditional Routing
 **Goal:** Make the graph branch based on data.
 
-- [ ] **3.1 File Classification:** Created node to classify modified files (security-sensitive, tests, docs).
-- [ ] **3.2 Conditional Edges:** Added `add_conditional_edges()` logic for dynamic routing.
-- [ ] **3.3 Fast Path:** Routed docs-only changes around heavy review nodes.
+- [x] **3.1 File Classification:** Created node to classify modified files (security-sensitive, tests, docs).
+- [x] **3.2 Conditional Edges:** Added `add_conditional_edges()` logic for dynamic routing.
+- [x] **3.3 Fast Path:** Routed docs-only changes around heavy review nodes.
 
 ---
 
