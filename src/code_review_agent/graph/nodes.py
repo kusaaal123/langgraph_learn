@@ -42,7 +42,12 @@ def classify_diff_node(state: GraphState) -> Dict[str, Any]:
         return {"is_docs_only": True}
 
     # Extract changed file paths from git diff headers
-    changed_files = re.findall(r"--- a/(.*?)\n\+\+\+ b/(.*?)", diff)
+    changed_files = re.findall(
+    r"^--- a/(.*?)\n^\+\+\+ b/(.*?)$",
+    diff,
+    re.MULTILINE
+    )
+
     file_paths = [b for _, b in changed_files]
 
     docs_extensions = ('.md', '.txt', '.rst', 'docs/')
